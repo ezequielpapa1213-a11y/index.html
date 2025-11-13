@@ -1583,7 +1583,6 @@ footer small{
 
     #imagen-viewport{
         width: auto;
-        height: auto;
     justify-content: center;
     align-items: center;
   
@@ -1695,4 +1694,5 @@ footer small{
     #primer-footer{
         height: auto;
     }
+
 }
