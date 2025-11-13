@@ -1,0 +1,170 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    flex-wrap: wrap;
+}
+ 
+ 
+.primer-div{
+    width: 250px;
+    height: 100px;
+    background-image: url(/img/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#menu{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    
+}
+
+#submenu{
+    width: 250px;
+    height: 300px;
+    background: black;
+    display: flex;
+    justify-content: center;
+     list-style: none;
+    align-items: center;
+    text-align: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-shadow: 0 0 0 100vmax rgb(0, 0,0, .5);
+    z-index: 9;
+    display: none;
+}
+
+.submenu a {
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: white;
+}
+
+.submenu{
+    list-style: none;
+    padding-top: 10px;
+}
+#abrir{
+    font-size: 3rem;
+    color: #ff0000;
+    display: none;
+}
+
+#cerrar{
+     font-size: 3rem;
+    color: #ff0000;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+#cajon-menu{
+    width: auto;
+    height: auto;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+}
+
+#primer-section{
+    width: 100%;
+    height: auto;
+    background-image: url(/img/fondo);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.primer-aside1{
+    width: 600px;
+    height: 130px;
+    background: rgb(255, 255, 255);
+    display: flex;
+
+}
+
+.imags{
+    width: 34%;
+    height: 100%;
+}
+
+#contenedor-aside{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+h1{
+    font-size: 4.5rem;
+    color: #ffffff;
+}
+h2{
+    font-size: 2.2rem;
+    padding-left: 15px;
+}
+
+#dentro-aside{
+ width: 70%;
+ height: 100%;
+}
+
+.primer-aside1 p{
+    margin-left: 10px;
+}
+
+#estrellas{
+    margin-left: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   gap: 10px;
+}
+
+.but{
+    width: 130px;
+    height: 25px;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    background: rgb(25, 23, 67);
+    text-decoration: none;
+    color: #ffffff;
+}
+#a{
+    margin-left: 10px;
+}
+
+h3{
+    font-size: 1rem;
+}
